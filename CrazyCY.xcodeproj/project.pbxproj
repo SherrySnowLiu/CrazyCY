@@ -24,6 +24,11 @@
 		4B1218E52125825000F2B641 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1218DC2125825000F2B641 /* 2.png */; };
 		4B1218E62125825000F2B641 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1218DD2125825000F2B641 /* 3.png */; };
 		4B1218E72125825000F2B641 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1218DE2125825000F2B641 /* 1.png */; };
+		4BA539EE21267C11004AC1EA /* aaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA539ED21267C11004AC1EA /* aaViewController.m */; };
+		4BA539F121267D9A004AC1EA /* bbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA539F021267D9A004AC1EA /* bbViewController.m */; };
+		4BA539F42126917E004AC1EA /* ccViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA539F32126917E004AC1EA /* ccViewController.m */; };
+		4BA539F721269188004AC1EA /* ddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA539F621269188004AC1EA /* ddViewController.m */; };
+		4BA539FA212691D6004AC1EA /* eeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA539F9212691D6004AC1EA /* eeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,16 @@
 		4B1218DC2125825000F2B641 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		4B1218DD2125825000F2B641 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		4B1218DE2125825000F2B641 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		4BA539EC21267C11004AC1EA /* aaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaViewController.h; sourceTree = "<group>"; };
+		4BA539ED21267C11004AC1EA /* aaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaViewController.m; sourceTree = "<group>"; };
+		4BA539EF21267D9A004AC1EA /* bbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bbViewController.h; sourceTree = "<group>"; };
+		4BA539F021267D9A004AC1EA /* bbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bbViewController.m; sourceTree = "<group>"; };
+		4BA539F22126917E004AC1EA /* ccViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ccViewController.h; sourceTree = "<group>"; };
+		4BA539F32126917E004AC1EA /* ccViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ccViewController.m; sourceTree = "<group>"; };
+		4BA539F521269188004AC1EA /* ddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ddViewController.h; sourceTree = "<group>"; };
+		4BA539F621269188004AC1EA /* ddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ddViewController.m; sourceTree = "<group>"; };
+		4BA539F8212691D6004AC1EA /* eeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eeViewController.h; sourceTree = "<group>"; };
+		4BA539F9212691D6004AC1EA /* eeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +144,16 @@
 				4B1218AE212581CF00F2B641 /* LaunchScreen.storyboard */,
 				4B1218B1212581CF00F2B641 /* Info.plist */,
 				4B1218B2212581CF00F2B641 /* main.m */,
+				4BA539EC21267C11004AC1EA /* aaViewController.h */,
+				4BA539ED21267C11004AC1EA /* aaViewController.m */,
+				4BA539EF21267D9A004AC1EA /* bbViewController.h */,
+				4BA539F021267D9A004AC1EA /* bbViewController.m */,
+				4BA539F22126917E004AC1EA /* ccViewController.h */,
+				4BA539F32126917E004AC1EA /* ccViewController.m */,
+				4BA539F521269188004AC1EA /* ddViewController.h */,
+				4BA539F621269188004AC1EA /* ddViewController.m */,
+				4BA539F8212691D6004AC1EA /* eeViewController.h */,
+				4BA539F9212691D6004AC1EA /* eeViewController.m */,
 			);
 			path = CrazyCY;
 			sourceTree = "<group>";
@@ -307,7 +332,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B1218A8212581CE00F2B641 /* ViewController.m in Sources */,
+				4BA539F721269188004AC1EA /* ddViewController.m in Sources */,
 				4B1218B3212581CF00F2B641 /* main.m in Sources */,
+				4BA539F42126917E004AC1EA /* ccViewController.m in Sources */,
+				4BA539F121267D9A004AC1EA /* bbViewController.m in Sources */,
+				4BA539EE21267C11004AC1EA /* aaViewController.m in Sources */,
+				4BA539FA212691D6004AC1EA /* eeViewController.m in Sources */,
 				4B1218A5212581CE00F2B641 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
